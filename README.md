@@ -54,3 +54,59 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+# Control de Gastos
+
+Aplicación móvil para gestionar de forma personal los ingresos y gastos del usuario.
+
+## Tecnologías
+
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+- AsyncStorage
+
+## Funcionalidades actuales
+
+- Registrar gastos.
+- Registrar ingresos.
+- Categorizar ingresos y gastos.
+- Guardar movimientos localmente en el dispositivo.
+- Calcular ingresos, gastos y saldo disponible.
+- Mostrar movimientos recientes.
+- Navegación entre las pantallas principales.
+
+## Estructura
+
+```text
+src/
+├── app/          # Pantallas y navegación
+├── components/   # Componentes reutilizables
+├── constants/    # Categorías y constantes
+├── services/     # Almacenamiento de datos
+├── styles/       # Estilos separados
+└── types/        # Tipos de TypeScript
+```
+
+## Ejecutar el proyecto
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Iniciar Expo:
+
+```bash
+npm start
+```
+
+Luego se puede abrir la aplicación mediante Expo Go o en el navegador.
+
+## Estado del proyecto
+
+🚧 En desarrollo.
+
+Actualmente el proyecto utiliza almacenamiento local mediante AsyncStorage. El backend y la base de datos todavía no forman parte de la aplicación.
